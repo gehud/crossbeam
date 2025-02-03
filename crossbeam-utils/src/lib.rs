@@ -24,7 +24,6 @@
 //! [`WaitGroup`]: sync::WaitGroup
 //! [`scope`]: thread::scope
 
-#![no_std]
 #![doc(test(
     no_crate_inject,
     attr(
