@@ -24,7 +24,6 @@
 //! [`WaitGroup`]: sync::WaitGroup
 //! [`scope`]: thread::scope
 
-#![no_std]
 #![doc(test(
     no_crate_inject,
     attr(
@@ -38,9 +37,6 @@
     rust_2018_idioms,
     unreachable_pub
 )]
-
-#[cfg(feature = "std")]
-extern crate std;
 
 #[cfg(crossbeam_loom)]
 #[allow(unused_imports)]
