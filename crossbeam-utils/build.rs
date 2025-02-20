@@ -14,8 +14,8 @@
 
 use std::env;
 
-include!("no_atomic.rs");
-include!("build-common.rs");
+include!("../no_atomic.rs");
+include!("../build-common.rs");
 
 fn main() {
     println!("cargo:rerun-if-changed=no_atomic.rs");
