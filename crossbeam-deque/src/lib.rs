@@ -82,7 +82,6 @@
 //! [`steal_batch()`]: Stealer::steal_batch
 //! [`steal_batch_and_pop()`]: Stealer::steal_batch_and_pop
 
-#![no_std]
 #![doc(test(
     no_crate_inject,
     attr(

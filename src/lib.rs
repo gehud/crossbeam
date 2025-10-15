@@ -38,7 +38,6 @@
 //! [`Backoff`]: utils::Backoff
 //! [`CachePadded`]: utils::CachePadded
 
-#![no_std]
 #![doc(test(
     no_crate_inject,
     attr(

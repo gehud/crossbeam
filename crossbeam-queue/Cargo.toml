@@ -14,6 +14,9 @@ description = "Concurrent queues"
 keywords = ["queue", "mpmc", "lock-free", "producer", "consumer"]
 categories = ["concurrency", "data-structures", "no-std"]
 
+[lib]
+crate-type = ["lib", "dylib"]
+
 [features]
 default = ["std"]
 

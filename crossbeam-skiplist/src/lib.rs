@@ -228,7 +228,6 @@
 //! }
 //! ```
 
-#![no_std]
 #![doc(test(
     no_crate_inject,
     attr(
